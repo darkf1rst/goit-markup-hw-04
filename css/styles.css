@@ -148,9 +148,16 @@ a {
 /* hero */
 
 .hero-section {
-  background: var(--main-title-color);
   height: 600px;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   margin-bottom: 48px;
@@ -230,6 +237,16 @@ a {
   letter-spacing: 0.02em;
   color: var(--secondary-link-color);
 }
+.container-2-list-icon {
+  background: #f4f4fd;
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  padding: 24px 0;
+  margin-bottom: 8px;
+}
+.icon-2-item {
+}
 
 /* section3 */
 
@@ -305,6 +322,29 @@ a {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+.team-list-icon {
+  margin-top: 8px;
+  display: flex;
+  gap: 24px;
+}
+
+.team-list-icon-item {
+  height: 40px;
+  width: 40px;
+}
+.team-list-icon-link {
+  background: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.team-list-icon-link:is(:hover, :focus) {
+  background-color: #404bbf;
 }
 
 /* footer */
