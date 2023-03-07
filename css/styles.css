@@ -175,6 +175,8 @@ a {
 	background: var(--main-button-color);
 	color: var(--secondary-title-color);
 	margin: 0 auto;
+	border-radius: 4px;
+	border: none;
 }
 .hero-section-container {
 }
@@ -236,6 +238,8 @@ a {
 	color: var(--secondary-link-color);
 }
 .container-2-list-icon {
+	margin-bottom: 8px;
+	border-radius: 4px;
 	display: flex;
 	height: 112px;
 	width: 100%;
@@ -409,6 +413,7 @@ a {
 }
 .footer-container {
 	display: flex;
+	align-items: baseline;
 }
 .foooter-link {
 	font-family: "Raleway";
